@@ -18,6 +18,8 @@ This documents how to deploy a simple node app to https://zeit.co/now, set up al
 
 7. :tada:
 
+## Details
+
 ### `now --public`
 
 Deploys your project and marks it as public. The `--public` flag prevents you from having to confirm that your project will be public.
