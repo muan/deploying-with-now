@@ -12,9 +12,11 @@ This documents how to deploy a simple node app to https://zeit.co/now, set up al
 
 4. Authenticate and deploy with `now --public`.
 
-5. Alias with `now ln`.
+5. Set an environment variable with `now secrets [name] [value]`.
 
-6. :tada:.
+6. Alias deployment with `now ln`.
+
+7. :tada:.
 
 ## Details
 
@@ -32,7 +34,7 @@ Every deployment gets a new random URL like `projectname-aicbqophhw.now.sh`. Thi
 
 ### Environment variables
 
-Set your secret environment variable with `now secrets variable_name variable_value`, and expose them through [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L15-L17). The `@` before the variable name tells now to look for variable of that name in the secrets.
+Expose your secret environment variables to your app in [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L15-L17). The `@` before the variable name tells now to look for variable of that name in the secrets.
 
 ## Doc links
 
