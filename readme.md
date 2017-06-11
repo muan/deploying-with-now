@@ -4,19 +4,19 @@ This documents how to deploy a simple node app to https://zeit.co/now, set up al
 
 ## Steps
 
-1. Fork this repository or have your project ready with `npm start` scrpt and [these configurations in your `package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L13-L18).
+1. Fork this repository or have your project ready with `npm start` script and [these configurations in your `package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L13-L18).
 
-2. Get an account at https://zeit.co/login
+2. Get an account at https://zeit.co/login.
 
-3. Install now CLI with `npm install now -g`
+3. Install now CLI with `npm install now -g`.
 
-4. Authenticate with `now login`
+4. Authenticate with `now login`.
 
-5. Deploy with `now --public`
+5. Deploy with `now --public`.
 
-6. Alias with `now ln`
+6. Alias with `now ln`.
 
-7. :tada:
+7. :tada:.
 
 ## Details
 
@@ -34,7 +34,7 @@ Every deployment gets a new random URL like `projectname-aicbqophhw.now.sh`. Thi
 
 ### Environment variables
 
-Set your secret environment variable with `now secrets variable_name variable_value`, and expose them through [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L15-L17).
+Set your secret environment variable with `now secrets variable_name variable_value`, and expose them through [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L15-L17). The `@` before the variable name tells now to look for variable of that name in the secrets.
 
 ## Doc links
 
