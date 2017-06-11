@@ -28,7 +28,7 @@ Deploys your project and marks it as public. The `--public` flag prevents you fr
 
 Aliases your deployment.
 
-Every deployment gets a new random URL like `projectname-aicbqophhw.now.sh`. This command alias your latest deployment with the alias name set in [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L14).
+Every deployment gets a new random URL like `projectname-aicbqophhw.now.sh`. This command aliases your latest deployment with the name set in [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L14).
 
 ### Environment variables
 
