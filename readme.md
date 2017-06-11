@@ -6,17 +6,19 @@ As much as I love now.sh, it does have some unexpected quirks. This documents my
 
 ## Steps
 
-1. Get an account at https://zeit.co/login
+1. Fork this repository or have your project ready with `npm start` scrpt and [these configurations in your `package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L13-L18).
 
-2. Install now CLI with `npm install now -g`
+2. Get an account at https://zeit.co/login
 
-3. Authenticate with `now login`
+3. Install now CLI with `npm install now -g`
 
-4. Deploy with `now --public`
+4. Authenticate with `now login`
 
-5. Alias with `now ln`
+5. Deploy with `now --public`
 
-6. :tada:
+6. Alias with `now ln`
+
+7. :tada:
 
 ### `now --public`
 
