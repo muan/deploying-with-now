@@ -1,8 +1,6 @@
 # Deploying with now
 
-A simple node server demo for deploying with https://zeit.co/now. Check out this test site at https://muan-testing.now.sh.
-
-As much as I love now.sh, it does have some unexpected quirks. This documents my initial needs and solutions found. :)
+This documents how to deploy a simple node app to https://zeit.co/now, set up alias, and configure environment variables. Check out this test site at https://muan-testing.now.sh.
 
 ## Steps
 
