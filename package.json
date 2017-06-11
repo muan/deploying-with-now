@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Demoing zeit.co/now",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "now --public && now ln"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "now": {
+    "alias": "muan-testing",
+    "env": {
+      "secret_env_var": "@secret_env_var"
+    }
+  }
+}
