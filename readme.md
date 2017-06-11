@@ -10,13 +10,11 @@ This documents how to deploy a simple node app to https://zeit.co/now, set up al
 
 3. Install now CLI with `npm install now -g`.
 
-4. Authenticate with `now login`.
+4. Authenticate and deploy with `now --public`.
 
-5. Deploy with `now --public`.
+5. Alias with `now ln`.
 
-6. Alias with `now ln`.
-
-7. :tada:.
+6. :tada:.
 
 ## Details
 
