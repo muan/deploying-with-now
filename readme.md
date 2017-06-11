@@ -22,7 +22,7 @@ As much as I love now.sh, it does have some unexpected quirks. This documents my
 
 Deploys your project and marks it as public. The `--public` flag prevents you from having to confirm that your project will be public.
 
-"Public" means that people will be able to view your source code and logs via `deployment_url/_logs`.
+"Public" means that people will be able to view your source code and logs via `deployment_url/_logs`. For example, https://muan-testing.now.sh/_logs.
 
 ### `now ln`
 
