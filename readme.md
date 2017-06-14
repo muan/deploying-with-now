@@ -32,6 +32,8 @@ Aliases your deployment.
 
 Every deployment gets a new random URL like `projectname-aicbqophhw.now.sh`. This command aliases your latest deployment with the name set in [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L14).
 
+⚠️ Old deployments stay around til it's frozen or manually removed (which takes a while to die completely). This means if your app is actively pulling, listening, or actiing on things, it will not stopped immediately on demand – you might get into a situation where multiple versions of your script is running.
+
 ### Environment variables
 
 Expose your secret environment variables to your app in [`package.json`](https://github.com/muan/deploying-with-now/blob/5074a2c84c60834b60e6ed3eb2e1fac919f65e3f/package.json#L15-L17). The `@` before the variable name tells now to look for variable of that name in the secrets.
